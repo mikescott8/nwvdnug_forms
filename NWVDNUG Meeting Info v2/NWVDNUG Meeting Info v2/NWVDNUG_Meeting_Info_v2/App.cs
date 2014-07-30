@@ -11,6 +11,10 @@ namespace NWVDNUG_Meeting_Info_v2
     {
         public static Page GetMainPage()
         {
+            return DetailPage.GetDetailPage(new MeetingInfo
+            {
+                SpeakerName = "Mike Hamilton"
+            });
             var vm = new AppViewModel();
             vm.LoadMeetingsCommand.Execute(null);
 
