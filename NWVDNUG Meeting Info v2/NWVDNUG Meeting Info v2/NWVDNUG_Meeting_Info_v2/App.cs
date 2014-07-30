@@ -11,6 +11,9 @@ namespace NWVDNUG_Meeting_Info_v2
 	{
 		public static Page GetMainPage()
 		{
+		    var vm = new AppViewModel();
+            vm.LoadMeetingsCommand.Execute(null);
+
 			return new ContentPage
 			{
 				Content = new Label {
