@@ -13,7 +13,10 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NWVDNUG_Meeting_Info_v2", "
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2\NWVDNUG_Meeting_Info_v2.projitems*{e76cb208-a604-49b6-b1fb-c08db051ef50}*SharedItemsImports = 4
 		NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2\NWVDNUG_Meeting_Info_v2.projitems*{a863f0f4-3946-4f52-b98b-087e20208f85}*SharedItemsImports = 13
+		NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2\NWVDNUG_Meeting_Info_v2.projitems*{e52ebf0f-f72f-4b15-96f2-2664cd1aa040}*SharedItemsImports = 4
+		NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2\NWVDNUG_Meeting_Info_v2.projitems*{3fd5935f-6ec7-4c68-927c-2db6fd536b9e}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
