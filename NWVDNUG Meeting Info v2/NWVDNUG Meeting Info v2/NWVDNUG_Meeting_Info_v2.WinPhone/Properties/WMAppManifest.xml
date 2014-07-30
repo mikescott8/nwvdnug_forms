@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="edccd693-ba0b-4eb9-bd43-e75b215ef8bd" Title="NWVDNUG_Meeting_Info_v2.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="NWVDNUG_Meeting_Info_v2.WinPhone author" Description="Sample description" Publisher="NWVDNUG_Meeting_Info_v2.WinPhone" PublisherID="97acbb83-e439-4588-b15e-1a923682b2f4">
+  <App xmlns="" ProductID="{edccd693-ba0b-4eb9-bd43-e75b215ef8bd}" Title="NWVDNUG_Meeting_Info_v2.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="NWVDNUG_Meeting_Info_v2.WinPhone author" Description="Sample description" Publisher="NWVDNUG_Meeting_Info_v2.WinPhone" PublisherID="{97acbb83-e439-4588-b15e-1a923682b2f4}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>

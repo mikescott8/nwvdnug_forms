@@ -14,7 +14,6 @@ namespace NWVDNUG_Meeting_Info_v2
     public class AppViewModel : BaseViewModel
     {
         public ObservableCollection<MeetingInfo> Meetings { get; set; }
-
         public AppViewModel()
         {
             Meetings = new ObservableCollection<MeetingInfo>();
@@ -35,7 +34,6 @@ namespace NWVDNUG_Meeting_Info_v2
         }
 
         private Command loadMeetingsCommand;
-
         public Command LoadMeetingsCommand
         {
             get { return loadMeetingsCommand ?? (loadMeetingsCommand = new Command(ExecuteLoadMeetingsCommand)); }
@@ -51,6 +49,7 @@ namespace NWVDNUG_Meeting_Info_v2
             try
             {
                 Meetings.Clear();
+
                 var client = new HttpClient();
                 var json = await client.GetStringAsync(MeetingsUrl);
 
@@ -63,7 +62,7 @@ namespace NWVDNUG_Meeting_Info_v2
             catch (Exception ex)
             {
                 var page = new ContentPage();
-                page.DisplayAlert("Error", "Unable to load Meetings.", "OK",null);
+                page.DisplayAlert("Error", "Unable to load Meetings.", "OK","cancel");
             }
 
             IsBusy = false;

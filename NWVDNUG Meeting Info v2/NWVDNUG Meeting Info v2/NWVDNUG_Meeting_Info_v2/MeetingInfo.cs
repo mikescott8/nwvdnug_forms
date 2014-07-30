@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace NWVDNUG_Meeting_Info_v2
 {
@@ -36,17 +37,19 @@ namespace NWVDNUG_Meeting_Info_v2
             get { return _speakerBioLink; }
             set { SetProperty(ref _speakerBioLink, value, "SpeakerBioLink"); }
         }
-        private string _meetingStartTime;
-        public string MeetingStartTime
+        private string _startTime;
+        [JsonProperty("MeetingStartTime")]
+        public string StartTime
         {
-            get { return _meetingStartTime; }
-            set { SetProperty(ref _meetingStartTime, value, "MeetingStartTime"); }
+            get { return _startTime; }
+            set { SetProperty(ref _startTime, value, "StartTime"); }
         }
-        private string _meetingEndTime;
-        public string MeetingEndTime
+        private string _endTime;
+        [JsonProperty("MeetingEndTime")]
+        public string EndTime
         {
-            get { return _meetingEndTime; }
-            set { SetProperty(ref _meetingEndTime, value, "MeetingEndTime"); }
+            get { return _endTime; }
+            set { SetProperty(ref _endTime, value, "EndTime"); }
         }
      }
 }
