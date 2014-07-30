@@ -33,10 +33,10 @@ namespace NWVDNUG_Meeting_Info_v2
             set { SetProperty(ref _selectedMeeting, value, "SelectedMeeting"); }
         }
 
-        private Command loadMeetingsCommand;
+        private Command _loadMeetingsCommand;
         public Command LoadMeetingsCommand
         {
-            get { return loadMeetingsCommand ?? (loadMeetingsCommand = new Command(ExecuteLoadMeetingsCommand)); }
+            get { return _loadMeetingsCommand ?? (_loadMeetingsCommand = new Command(ExecuteLoadMeetingsCommand)); }
         }
 
         private const string MeetingsUrl = "http://nwvdnug.org/api/upcomingmeetings/";
