@@ -62,7 +62,7 @@ namespace NWVDNUG_Meeting_Info_v2
             catch (Exception ex)
             {
                 var page = new ContentPage();
-                page.DisplayAlert("Error", "Unable to load Meetings.", "OK","cancel");
+                page.DisplayAlert("Error", "Unable to load Meetings.", "OK");
             }
 
             IsBusy = false;

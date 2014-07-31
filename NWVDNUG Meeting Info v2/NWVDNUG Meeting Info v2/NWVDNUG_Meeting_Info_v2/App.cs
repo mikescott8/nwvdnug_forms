@@ -13,7 +13,10 @@ namespace NWVDNUG_Meeting_Info_v2
         {
             return DetailPage.GetDetailPage(new MeetingInfo
             {
-                SpeakerName = "Mike Hamilton"
+                SpeakerName = "Mike Hamilton",
+                SpeakerBioLink = "http://www.mikescott8.me",
+                Title = "Testing the various cells",
+                Location="5600 West Union HIlls Rd, Glendale, AZ"
             });
             var vm = new AppViewModel();
             vm.LoadMeetingsCommand.Execute(null);
