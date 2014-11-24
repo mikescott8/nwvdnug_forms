@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWVDNUG_Meeting_Info_v2.WinPhone", "NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2.WinPhone\NWVDNUG_Meeting_Info_v2.WinPhone.csproj", "{E52EBF0F-F72F-4B15-96F2-2664CD1AA040}"
 EndProject
@@ -10,6 +10,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWVDNUG_Meeting_Info_v2.Android", "NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2.Android\NWVDNUG_Meeting_Info_v2.Android.csproj", "{3FD5935F-6EC7-4C68-927C-2DB6FD536B9E}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NWVDNUG_Meeting_Info_v2", "NWVDNUG Meeting Info v2\NWVDNUG_Meeting_Info_v2\NWVDNUG_Meeting_Info_v2.shproj", "{A863F0F4-3946-4F52-B98B-087E20208F85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1222232F-ABF0-4A04-81B1-8B5E710B1E3B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
